@@ -20,30 +20,27 @@ public class Main3 {
 
 		while (m != 0 || n != 0) {
 			int a[] = new int[n];
-			if (count == 1) {
-				a[0] = m;
-				m++;
-			}
+			a[0] = m;
 
 			for (int i = 0; i < count; i++) {
 				if (m % a[i] == 0) {
 					m++;
-					i = 0;
-				} else {
+					i = -1;
+				} else if (i == count - 1){
 					if (count == n) {
 						break;
 					}
 					a[count] = m;
 					count++;
 				}
-				writer.write(m + "\r\n");
-
-				m = sc.nextInt();
-				n = sc.nextInt();
-				count = 1;
 			}
-			writer.flush();
+			writer.write(m + "\r\n");
+
+			m = sc.nextInt();
+			n = sc.nextInt();
+			count = 1;
 		}
+		writer.flush();
 	}
 
 }
