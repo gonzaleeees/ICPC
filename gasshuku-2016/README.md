@@ -1,4 +1,4 @@
-2016合宿競プロ問題
+#2016合宿競プロ問題
 Kuru Kuru Door
 http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2705
 
@@ -14,7 +14,6 @@ http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2709
 Bit Operation Game
 http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2713
 
-[12:46]
 Who Are The Student Yet To Submit
 http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0511
 
